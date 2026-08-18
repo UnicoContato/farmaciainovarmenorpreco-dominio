@@ -569,6 +569,60 @@ h1 {
     color: var(--ink);
 }
 
+.branch-list {
+    display: grid;
+    gap: 18px;
+    margin-top: 24px;
+}
+
+.branch-card {
+    padding: 20px;
+    border: 1px solid var(--line);
+    border-radius: 8px;
+    background: #fbfcfd;
+}
+
+.branch-header {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 10px 12px;
+}
+
+.branch-header span {
+    display: inline-flex;
+    align-items: center;
+    min-height: 28px;
+    padding: 5px 10px;
+    border-radius: 6px;
+    color: var(--red);
+    background: #fff0f1;
+    font-size: 12px;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+.branch-header h3 {
+    margin: 0;
+    font-size: 22px;
+}
+
+.branch-card .contact-list {
+    margin-top: 16px;
+}
+
+.branch-card .contact-list p {
+    font-size: 15px;
+    line-height: 1.55;
+}
+
+.branch-actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 18px;
+}
+
 .map-panel {
     min-height: 560px;
     overflow: hidden;
